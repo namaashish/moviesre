@@ -11,7 +11,9 @@ An interactive recommendation engine that suggests similar movies based on conte
 📊 **Data Processing** – Parsed JSON-style strings using `ast`, handled missing data  
 🧵 **Streamlined Tags Column** – Combined overview, genre, cast, keywords, crew  
 📦 **Pickle Persistence** – Preprocessed data and similarity matrix stored in `.pkl` files  
-🎨 **Simple Streamlit UI** – Fast and responsive UI ready for deployment
+🎨 **Simple Streamlit UI** – Fast and responsive UI  
+☁️ **Heroku Deployment** – One-click cloud deployment using `Procfile` and `setup.sh`
+
 
 ---
 
@@ -22,7 +24,7 @@ An interactive recommendation engine that suggests similar movies based on conte
 | Backend       | Python, Pandas, NumPy                         |
 | NLP           | NLTK (PorterStemmer), CountVectorizer         |
 | ML Similarity | Scikit-learn (cosine similarity)              |
-| Deployment    | Streamlit Cloud / Heroku (Procfile provided)  |
+| Deployment    | Heroku (Procfile provided)  |
 
 ---
 
@@ -48,13 +50,13 @@ An interactive recommendation engine that suggests similar movies based on conte
 
 ### 🔧 Setup  
 ```bash
-git clone https://github.com/namaashish/Movie-Recommendation-System.git
+git clone https://github.com/namaashish/moviesre
 pip install -r requirements.txt
 ```
 
 ### ▶️ Launch App  
 ```bash
-streamlit run app.py
+streamlit run movie_app_with_eda.py
 ```
 Then open your browser at [http://localhost:8501](http://localhost:8501)
 
