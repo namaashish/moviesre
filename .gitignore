@@ -1,0 +1,16 @@
+# Ignore model files
+*.pkl
+
+# Do NOT ignore everything by default
+# Instead, ignore specific folders or files
+
+# Example: ignore data and logs, but not core code/docs
+/data/
+/logs/
+
+# Keep README, app.py, etc.
+!README.md
+!app.py
+!requirements.txt
+!*.py
+                        
